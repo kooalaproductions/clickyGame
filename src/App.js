@@ -38,7 +38,7 @@ class App extends Component {
     return imgArray
   }
 
-  pickImg = (name) => {//image choosen
+  pickImg = (name) => {//image choosenr
     console.log("Clicked!!");
     let picked = this.state.picked;
     
