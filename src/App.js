@@ -29,7 +29,7 @@ class App extends Component {
   };
 
   
-  randomShuffle = (array) => {
+  randomShuffle = (array) => {//will shuffle the images around
     let imgArray = Img;
     for (let i = imgArray.length - 1; i > 0; i--) {
       let j = Math.floor(Math.random() * (i + 1));
@@ -38,7 +38,7 @@ class App extends Component {
     return imgArray
   }
 
-  pickImg = (name) => {
+  pickImg = (name) => {//image choosen
     console.log("Clicked!!");
     let picked = this.state.picked;
     
